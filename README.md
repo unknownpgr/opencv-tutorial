@@ -1,2 +1,2 @@
 # opencv-example
-Examples for OpenCV study.
+Examples for ZETIN embedded software competition OpenCV study.
