@@ -9,6 +9,6 @@ while True:
     img = cv2.blur(img, (3, 3))
     # Do binarization
     img[img > 128] = 255
-    img[img < 129] = 0
+    img[img <= 128] = 0
     cv2.imshow('myView', img)
     cv2.waitKey(1)
